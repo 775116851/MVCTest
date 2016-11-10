@@ -1,0 +1,104 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/css/dailySurprise.css" rel="stylesheet" />
+    <link href="~/Content/css/dailySurpriseDetail.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.7.1.js"></script>
+    <script src="~/Scripts/iscroll.js"></script>
+    <script src="~/Scripts/iscroll-probe.js"></script>
+    <script type="text/javascript">
+        var myScroll;
+
+        function loaded() {
+            myScroll = new IScroll('#wrapper');
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+    </script>
+    <style type="text/css">
+        body {
+	/* On modern browsers, prevent the whole page to bounce */
+	overflow: hidden;
+}
+
+        #wrapper {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+
+	/* Prevent native touch events on Windows */
+	-ms-touch-action: none;
+
+	/* Prevent the callout on tap-hold and text selection */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Prevent text resize on orientation change, useful for web-apps */
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+        #scroller {
+	position: absolute;
+
+	/* Prevent elements to be highlighted on tap */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	/* Put the scroller into the HW Compositing layer right from the start */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+    </style>
+</head>
+<body onload="loaded()">
+    <div class="fixed-layer">
+         <div class="category">
+              <div class="category-menu" id="wrapper"><div id="scroller">
+                  <ul >
+                    <li class="category-menu-item category-menu-item-current">腕表</li>
+                    <li class="category-menu-item">珠宝</li>
+                    <li class="category-menu-item">收藏品</li>
+                  </ul>
+              </div></div>
+              <div class="category-main">
+                <div class="category-list">
+                    <div class="category-list-item" style="display:block;">
+                      <p><a href="#" class="category-pro-name">金条</a></p>
+                      <p><a href="#" class="category-pro-name">金条</a></p>
+                      <p><a href="#" class="category-pro-name">金条</a></p>
+                    </div>
+                    <div class="category-list-item">
+                      <p><a href="#" class="category-pro-name">银条</a></p>
+                      <p><a href="#" class="category-pro-name">银条</a></p>
+                      <p><a href="#" class="category-pro-name">银条</a></p>
+                    </div>
+                    <div class="category-list-item">
+                      <p><a href="#" class="category-pro-name">纪念币</a></p>
+                      <p><a href="#" class="category-pro-name">纪念币</a></p>
+                      <p><a href="#" class="category-pro-name">纪念币</a></p>
+                    </div>
+                </div>
+              </div>
+         </div>
+     </div>
+</body>
+</html>

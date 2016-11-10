@@ -1,0 +1,35 @@
+.main-detail .left-ul li{
+	line-height: 200%;
+}
+
+.main-detail .right-ul li{
+	line-height: 200%;
+}
+
+.main-detail hr{
+	margin: 3% 0%;
+}
+
+.main-detail .mon{
+	color: red;
+
+}
+
+.main-detail .right-ul a{
+	float: right;
+	border-radius: 4px;
+	-moz-border-radius:4px;
+	line-height: 110%;
+	padding: 3%;
+	background-color: #0058ff;
+	color: white;
+	text-decoration: none;
+	margin-right: 2%;
+	font-size: 0.9em;
+}
+
+.main-detail span{
+	position: absolute;
+	top:4em;
+	z-index: 9999;
+}

@@ -1,0 +1,81 @@
+.main-detail{
+	padding: 5%;
+	font-size: 1.35em;
+	margin-bottom: 18%;
+}
+
+.main-detail .left-ul{
+	list-style: none;
+	width: 30%;
+	float: left;
+}
+
+.main-detail .right-ul{
+	list-style: none;
+	width: 70%;
+	float: right;
+}
+
+.main-detail .right-ul .money{
+	color: red;
+}
+
+.main-detail .right-ul .money label{
+	color: #ccc;
+}
+
+.main-detail .left-ul li{
+	text-align: right;
+	line-height: 180%;
+	white-space:nowrap;
+}
+
+.main-detail .right-ul li{
+	text-align: left;
+	line-height: 180%;
+	white-space:nowrap;
+}
+
+.main-detail span{
+	position: absolute;
+	right: 5%;
+	top: 25%;
+	z-index: 9999;
+	padding: 0;
+	margin: 0;
+}
+
+.main-detail span img{
+	height: 50%;
+	width: 50%;
+	float: right;
+}
+
+.pay{
+	position: fixed;
+	bottom: 2%;
+	width: 100%;
+	max-width: 640px;
+	background-color: white;
+}
+
+.pay a{
+	padding: 3%;
+	background-color: #0058ff;
+	color: white;
+	text-decoration: none;
+	float: right;
+	margin-right: 2%;
+	font-size: 1.2em;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+}
+
+.pay .go{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.pay .can{
+	background-color: #ccc;
+}

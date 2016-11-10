@@ -1,0 +1,40 @@
+.mainer dl dt{
+	font-size: 1.4em;
+}
+
+.mainer dl dd{
+	font-size: 0.7em;
+}
+
+.mainer dl{
+	width: 64%;
+}
+
+.mainer .listMe{
+	width: 33%;
+	text-align: right;
+}
+
+.mainer .listMe span{
+	font-size: 1.2em;
+	line-height: 200%;
+}
+
+.mainer .listMe span b{
+	font-size: 1.4em;
+}
+
+.mainer .listMe a{
+	padding: 6%;
+	font-size: 0.8em;
+}
+
+.mainer .listMe .cancel{
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: gray;
+}
+
+.on{
+	color: #0058ff;
+}

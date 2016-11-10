@@ -1,0 +1,40 @@
+.item{
+	padding: 4% 8%;
+	font-size: 1.35em;
+}
+
+.item section{
+	margin: 5.5% 0;
+}
+
+.item section .title{
+	margin-right: 7%;
+}
+
+.item section input[type="text"]{
+	padding: 2%;
+	font-size: 1em;
+	width: 50%;
+}
+
+.item section .cont1{
+	color: red;
+	font-weight: bolder;
+}
+
+.item section input[type="number"]{
+	height: 1em;
+	padding: 2%;
+	font-size: 1em;
+}
+
+.tips{
+	padding: 0 8%;
+	color: red;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+.tips ol{
+	margin-left: 8%;
+}

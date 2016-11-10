@@ -1,0 +1,12 @@
+.main .price{
+	color: gray;
+	padding: 0 2%;
+	width: 55%;
+}
+
+.main .now{
+	color: red;
+	font-size: 1.6em;
+	width: 30%;
+	line-height: 300%;
+}

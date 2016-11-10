@@ -1,0 +1,90 @@
+nav{
+	background-color: #d6d6c2;
+	position:relative;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	width: 33.3%;
+	text-align: center;
+	float: left;
+	font-size: 1.3em;
+	padding: 10px 0;
+
+}
+nav ul li.smallBox{width:85px;}
+nav ul li.rgs{width:30px;height:40px;}
+
+nav .rgs{position:absolute;top:13px;}
+nav .rgs-l{left:5px;}
+nav .rgs-r{right:5px;}
+
+.menu{width:90%;margin:auto;overflow:hidden;}
+
+
+nav ul li a{
+	text-decoration: none;
+	line-height: 150%;
+}
+
+nav ul li a img{
+	vertical-align: middle;
+}
+
+.mainer{
+	padding: 0;
+	margin: 2% 5%;
+}
+
+.mainer ul{
+	list-style: none;
+}
+
+.mainer ul li{
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+.mainer dl{
+	width: 75%;
+	padding-left: 2%;
+	float: left;
+	line-height: 130%;
+}
+
+.mainer dl dt{
+	font-size: 1.5em;
+	line-height: 150%;
+}
+
+.mainer dl dd{
+	font-size: 0.8em;
+}
+
+.mainer .time{
+	color: #c1c1a3;
+}
+
+.mainer .listMe{
+	width: 23%;
+	float: right;
+	text-align: center;
+}
+
+.mainer .listMe span{
+	color: red;
+	line-height: 230%;
+}
+
+.mainer .listMe a{
+	text-decoration: none;
+	padding: 7%;
+	line-height: 180%;
+	background-color: #0058ff;
+	color: white;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+}

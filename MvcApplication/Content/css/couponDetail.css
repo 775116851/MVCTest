@@ -1,0 +1,55 @@
+.detail .price{
+	color: red;
+}
+
+.detail b{
+	font-size: 2em;
+}
+
+.detail div del{
+	color: gray;
+}
+
+.detail .saled{
+	color: red;
+	float: right;
+	line-height: 350%;
+}
+
+.explain section{
+	font-size: 1.4em;
+	line-height: 150%;
+}
+
+.explain hr{
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.explain{
+	padding: 0% 8%;
+}
+
+.detail{
+	padding: 4% 8% 0%;
+}
+
+.content{
+	font-size: 1.1em;
+	line-height: 160%;
+	padding: 0 8%;
+}
+
+.find{
+	padding: 5% 8%;
+}
+
+.find a{
+	text-decoration: none;
+	color: #0058ff;
+	font-size: 1.1em;
+}
+
+.find hr{
+	margin-bottom: 5%;
+}

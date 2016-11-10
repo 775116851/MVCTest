@@ -1,0 +1,123 @@
+.detail{
+	text-align: center;
+	padding: 8%;
+}
+
+.detail div{
+	text-align: left;
+	margin-top: 1%;
+}
+
+.detail div font{
+	float: right;
+	color: red;
+}
+
+.color-choice{
+	border:1px solid gray;
+	width: 88%;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+.color-choice span{
+	float: left;
+}
+
+.color-choice ul{
+	width: 70%;
+	float: left;
+}
+
+.color-choice span{
+	margin-left: 7%;
+}
+
+.color-choice ul li{
+	list-style: none;
+	border:1px solid #0058ff;
+	text-align: center;
+	cursor: pointer;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	color: white;
+}
+
+.color-choice ul li:hover{
+	background-color: #0058ff;
+}
+
+.color-choice ul li:hover a{
+    color: white;
+}
+
+.color-choice ul li a{
+	text-decoration: none;
+	color: #0058ff;
+}
+
+.color-choice ul .on{
+	background-color: #0058ff;
+}
+
+.color-choice ul .on a{
+	color: #ffffff;
+}
+
+.menu{
+	width: 92%;
+    border:none;
+    margin: 2% auto;
+}
+
+.menu ul{
+	float: none;
+	width: 100%;
+}
+
+.menu ul li{
+	width: 32.5%;
+	margin-left: 0;
+	border-right: none;
+	padding: 1% 0;
+}
+
+.menu ul .right{
+	border-right: 1px solid #0058ff;
+}
+
+.content{
+	padding: 5%;
+	color: #333;
+	font-size: 0.9em;
+}
+
+.content ol li{
+	margin-left: 8%;
+}
+
+footer{
+	position: relative;
+	background: none;
+	margin-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+	line-height: 280%;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: right;
+	margin-right: 5%;
+	background-color: #0058ff;
+}
+
+footer span{
+	float: right;
+	margin-right: 5%;
+	line-height: 280%;
+}

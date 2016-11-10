@@ -1,0 +1,84 @@
+.submit-detail{
+	font-size: 1.2em;
+	padding: 8%;
+
+}
+
+.submit-detail ul{
+	list-style: none;
+}
+
+.submit-detail .left-ul{
+	width: 30%;
+	float: left;
+}
+
+.submit-detail .right-ul{
+	width: 70%;
+	float: right;
+}
+
+.submit-detail input{
+	padding: 3%;
+	font-size: 0.95em;
+	width: 90%;
+}
+
+.submit-detail ul li{
+	line-height: 200%;
+	margin-top: 7%;
+	padding-top: 2%;
+	text-align: right;
+}
+
+.submit-detail .left-ul li{
+	padding: 5% 0% ;
+	margin: 14% 0%;
+}
+
+.submit-detail select{
+	height: 2.5em;
+	width: 31%;
+	margin: 0;
+}
+
+footer{
+	position: absolute;
+	background: none;
+	bottom: 4%;
+	width: 100%;
+	max-width: 640px;
+	height: 6%;
+	padding: 3% 0 4%;
+	background-color: white;
+}
+
+footer hr{
+	margin-bottom: 2%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+	line-height: 280%;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: right;
+	margin-right: 5%;
+	background-color: #0058ff;
+}
+
+footer span{
+	float: right;
+	margin-right: 5%;
+	line-height: 280%;
+}
+
+footer .money{
+	color: red;
+}
+
+footer .price{
+	margin-right: 0;
+}

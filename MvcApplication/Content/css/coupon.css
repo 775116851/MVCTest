@@ -1,0 +1,43 @@
+
+.mainer{
+	padding: 3% 3% 18%;
+}
+
+.mainer article section{
+	border:1px solid gray;
+	-moz-border:3px solid gray;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2% 3%;
+	margin: 2% 0;
+}
+
+.mainer article section img{
+	height: 50%;
+	width: 100%;
+}
+
+.mainer article section .title{
+	float: left;
+}
+
+.mainer article section .price{
+	color: red;
+	float: right;
+}
+
+.mainer article section del{
+	float: right;
+	color: gray;
+}
+
+.mainer article section b{
+	font-size: 1.3em;
+}
+
+.mainer article section div{
+	line-height: 180%;
+	vertical-align: middle;
+}
